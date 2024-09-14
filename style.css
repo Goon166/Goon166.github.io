@@ -7,14 +7,24 @@ h1{
     margin:0;
 }
 
-ul {
-    margin:0;
-}
-
 body > header {
     background-color: orange;
     color:white;
-    }
+    display: flex;
+    height: 12vh;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
 
 body > footer {
     background-color:orange;
@@ -39,4 +49,12 @@ nav>ul>a{
 body>main>article{
     margin:auto;
     width:70%
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%
 }
