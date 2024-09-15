@@ -17,12 +17,15 @@ body > header {
 
 #nav-ul {
     display: flex;
-    padding: 8px;
+}
+
+#nav-ul > li {
+    padding:8px;
     margin: 16px;
 }
 
 body > header > nav > ul {
-    list-style: none;
+    list-style:none;
     text-decoration: none;
 }
 
